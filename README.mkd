@@ -18,6 +18,15 @@ snippets automatically.
 You can set any file to user stories file using:
 <pre><code>:setfiletype userstories</code></pre>
 
+## Syntax
+
+Plugin will highlight following keywords:
+
+* AS A
+* AS AN
+* I WANT TO
+* SO THAT
+
 ## Snippets
 
 You need to have [snipMate](http://www.vim.org/scripts/script.php?script_id=2540)
