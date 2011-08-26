@@ -6,7 +6,7 @@ authoring.
 
 # Installation
 
-<pre>https://github.com/pk/vim-userstories
+<pre>git clone https://github.com/pk/vim-userstories
 cd vim-userstories && cp -R . ~/.vim/</pre>
 
 
