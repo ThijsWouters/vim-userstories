@@ -22,18 +22,22 @@ You can set any file to user stories file using:
 
 Plugin will highlight following keywords:
 
-* AS A
-* AS AN
-* I WANT TO
+* AS A / AS AN
+* I WANT / I WANT TO
 * SO THAT
+
+which makes for support of the standard template for a user story:
+
+<pre>AS A/AN role I WANT TO desire SO THAT I rationale.</pre>
+
 
 ## Snippets
 
 You need to have [snipMate](http://www.vim.org/scripts/script.php?script_id=2540)
 plugin installed in order to use snippets. Once you have that you can use:
 
-<pre>asa -> AS A role I WANT TO goal SO THAT reason.
-asan -> AS AN role I WANT TO goal SO THAT reason.</pre>
+<pre>asa -> AS A role I WANT TO desire SO THAT rationale.
+asan -> AS AN role I WANT TO desire SO THAT rationale.</pre>
 
 
 # License
