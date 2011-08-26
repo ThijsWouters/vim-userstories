@@ -18,8 +18,10 @@ snippets automatically.
 You can set any file to user stories file using:
 <pre><code>:setfiletype userstories</code></pre>
 
-You need to have snipMate plugin installed in order to use snippets. Once you
-have that you can use:
+## Snippets
+
+You need to have [snipMate](http://www.vim.org/scripts/script.php?script_id=2540)
+plugin installed in order to use snippets. Once you have that you can use:
 
 <pre><code>
 asa -> AS A role I WANT TO goal SO THAT reason.
