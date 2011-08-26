@@ -6,8 +6,8 @@ authoring.
 
 # Installation
 
-https://github.com/pk/vim-userstories
-cd vim-userstories && cp -R . ~/.vim/
+<pre>https://github.com/pk/vim-userstories
+cd vim-userstories && cp -R . ~/.vim/</pre>
 
 
 # Usage
@@ -23,10 +23,8 @@ You can set any file to user stories file using:
 You need to have [snipMate](http://www.vim.org/scripts/script.php?script_id=2540)
 plugin installed in order to use snippets. Once you have that you can use:
 
-<pre><code>
-asa -> AS A role I WANT TO goal SO THAT reason.
-asan -> AS AN role I WANT TO goal SO THAT reason.
-</code></pre>
+<pre>asa -> AS A role I WANT TO goal SO THAT reason.
+asan -> AS AN role I WANT TO goal SO THAT reason.</pre>
 
 
 # License
