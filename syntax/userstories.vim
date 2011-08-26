@@ -1,10 +1,12 @@
 " Syntax highlighting for User stories files
 " Copyright © 2011 Pavel Kunc <pavel.kunc@gmail.com>
 
-syn match usASA    '^AS A.'
-syn match usWANTTO 'I WANT TO'
-syn match usSOTHAT 'SO THAT'
+syntax case match
 
-hi link usASA    Keyword
-hi link usWANTTO Keyword
-hi link usSOTHAT Keyword
+syntax match usASA    /^AS AN\?/
+syntax match usWANTTO /I WANT\( TO\)\?/
+syntax match usSOTHAT /SO THAT/
+
+highlight link usASA    Keyword
+highlight link usWANTTO Keyword
+highlight link usSOTHAT Keyword
